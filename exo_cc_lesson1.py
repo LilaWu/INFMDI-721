@@ -1,12 +1,15 @@
 import math
 import unittest
+import numpy
 
 
 # Given a string and a non-negative int n, return a larger string
 # that is n copies of the original string.
 # Example: string_times("hey", 3) should return "heyheyhey"
 def string_times(string, n):
-    return
+    for (i = 1; i<n; i++)
+        string = string + string
+    return string
 
 
 # Write a function which returns True if a year is a leap year.
@@ -15,29 +18,41 @@ def string_times(string, n):
 # or if:
 # - it is divisible by 400
 def is_leap_year(year):
-    return
+    if year%4 == 0
+        int = "True":
+    else
+        int = "False":
+    return int
 
 
 # Given a list of ints, return True if one of the first 4 elements
 # in the array is a 9. The list length may be less than 4.
 def array_front9(nums):
-    return
+    int = "False"
+    while int = "False":
+        for (i=0; i<4; i++):
+            if nums[i] = 9:
+                int = "True"
+                return
 
 
 # Given a list of ints, return the list of their square root.
 def list_sqrt(nums):
-    return
+    nums = np.square(arr1)
+    return nums
 
 
 # Write a function which return a dict containing the number of time each letter
 # is present in the given text.
 def occurences(text):
+    counter = counter(text.replace(" ",""))
     return
 
 
 # Write a function that maps a list of words into a list of
 # integers representing the lengths of the corresponding words.
 def length_words(words):
+    
     return
 
 
